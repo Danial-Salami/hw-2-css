@@ -84,9 +84,10 @@ button {
     cursor: pointer;
     border-radius: 15px;
     margin: 15px;
-    box-shadow: 5px;
+    box-shadow: 2px 2px 20px 2px rgb(185, 183, 183);
     outline: none;
     color: white;
+    border: none;
 }
 
 .links {
