@@ -1,0 +1,297 @@
+@font-face {
+    font-family: WorkSans;
+    src: url(../../Work_Sans_font/static/WorkSans-SemiBold.ttf);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: WorkSans;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    position: relative;
+}
+
+.top {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top .social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top .social-medias i {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.top .social-medias i:first-child {
+    background-image: url(./facebook-f.svg);
+}
+
+.top .social-medias i:nth-child(2) {
+    background-image: url(./twitter.svg);
+}
+
+.top .social-medias i:last-child {
+    background-image: url(./instagram.svg);
+}
+
+.top .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top .header span {
+    font-size: 40px;
+}
+
+.top .header span:last-child {
+    color: red;
+}
+
+.top .profile {
+    background-image: url(./circle-user.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+}
+
+.nav-items div {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-items div i {
+    background-image: url(./angle-down.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+}
+
+.nav-items div:first-child {
+    color: rgb(221, 133, 133);
+}
+
+.main {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.main-chart {
+    width: 359px;
+    height: 520px;
+    margin: 10px;
+}
+
+.main-chart .pic-div {
+    width: 100%;
+    height: 65%;
+    background-image: url(./image1.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 5px 0.5px rgb(128, 128, 128);
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.main-chart .pic-div .pic-div-top {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.main-chart .pic-div .pic-div-top .status-div {
+    width: 170px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(128, 76, 170);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.main-chart .pic-div .pic-div-top .status-div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: white;
+}
+
+.main-chart .pic-div .pic-div-top .status-div div i {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.main-chart .pic-div .pic-div-top .status-div div:first-child i {
+    background-image: url(./comment.svg);
+}
+
+.main-chart .pic-div .pic-div-top .status-div div:nth-child(2) i {
+    background-image: url(./fire-flame-curved.svg);
+}
+
+.main-chart .pic-div .pic-div-top .status-div div:last-child i {
+    background-image: url(./clock.svg);
+}
+
+.main-chart .pic-div .motto-div {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.main-chart .pic-div .motto-div span {
+    background-color: white;
+    font-size: 20px;
+}
+
+.person-div {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.person-div i {
+    background-image: url(./circle-user.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+}
+
+.person-div span {
+    margin: 15px;
+    color: rgb(85, 76, 76);
+}
+
+.discription-div {
+    text-align: center;
+    color: rgb(172, 157, 157);
+}
+
+.discription-div p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.tag-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.tag-div i {
+    background-image: url(./tag.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+}
+
+#linkup {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(235, 152, 152);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: absolute;
+    left: 95%;
+    top: 160%;
+}
+
+#linkup i {
+    background-image: url(./angle-up.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
